@@ -30,8 +30,6 @@ pts, cls, img, seg= data_obj[idx]
 
 classes_dict_list = list(classes_dict)
 
-print(type(img))
-
 print("The class of this point-cloud is: ", classes_dict_list[cls.item()])
 
 display_cloud= o3.geometry.PointCloud()
